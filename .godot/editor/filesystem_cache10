@@ -1,6 +1,22 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1777078260
+::res://::1777147948
 icon.svg::CompressedTexture2D::8044239888931133101::1776919200::1776919205::1::::<><><>0<>0<>cfef9731edb2b4a45002a635792c89e5<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+::res://addons/::1777127876
+::res://addons/savekit/::1777128478
+binary_deserializer.gd::GDScript::980747277309844317::1777127876::0::1::::<><><>0<>0<><>::
+binary_serializer.gd::GDScript::4240036115659836515::1777127876::0::1::::<><><>0<>0<><>::
+deserializer.gd::GDScript::6742752919467542605::1777127876::0::1::::SaveKitDeserializer<>RefCounted<><>1<>0<><>::
+json_deserializer.gd::GDScript::3454091747119743554::1777127876::0::1::::<><><>0<>0<><>::
+json_serializer.gd::GDScript::7771424033720084217::1777127876::0::1::::<><><>0<>0<><>::
+plugin.cfg::TextFile::-1::1777127876::0::1::::<><><>0<>0<><>::
+plugin.gd::GDScript::4611856536801931566::1777127876::0::1::::<>EditorPlugin<><>0<>1<><>::
+README.md::TextFile::-1::1777128478::0::1::::<><><>0<>0<><>::
+reflection_utils.gd::GDScript::7482964273718643312::1777127876::0::1::::<>RefCounted<><>0<>0<><>::
+resource.gd::GDScript::7201616781753187615::1777127876::0::1::::SaveKitResource<>Resource<><>1<>0<><>::
+resource_utils.gd::GDScript::4472508674659883467::1777127876::0::1::::<>RefCounted<><>0<>0<><>::
+save_game_file.gd::GDScript::883341420380959502::1777127876::0::1::::<>RefCounted<><>0<>0<><>::
+save_manager.gd::GDScript::5535096430289891944::1777128478::0::1::::<>Node<><>0<>0<><>::
+serializer.gd::GDScript::537320467788075930::1777127876::0::1::::SaveKitSerializer<>RefCounted<><>1<>0<><>::
 ::res://src/::1776919282
 ::res://src/assets/::1776967802
 ::res://src/assets/character/::1777004823
@@ -132,9 +148,9 @@ TX Tileset Wall.png::CompressedTexture2D::5126348055425411598::1747861652::17769
 TX Plant with Shadow.png::CompressedTexture2D::87868454092614101::1747927422::1776958125::1::::<><><>0<>0<>e46617aee59d2bdad8e73758d472c8ff<>res://.godot/imported/TX Plant with Shadow.png-511b8399786275d9b2c5eff8adb13d20.ctex::
 TX Props with Shadow.png::CompressedTexture2D::6819450720648263427::1747927446::1776958125::1::::<><><>0<>0<>26f41f992f621e9e1c60a170462fdd7a<>res://.godot/imported/TX Props with Shadow.png-e8a0e305fc715bed656e5d7adf2cfe0f.ctex::
 ::res://src/scripts/::1776919275
-::res://src/tscn/::1777043849
-main.tscn::PackedScene::6998153694706693620::1777043849::0::1::::<><><>0<>0<><>::uid://dnyaf6a0y85rl::::res://src/tscn/character/player.tscn<>uid://dmuxpq1sl0f0p::::res://icon.svg
-::res://src/tscn/character/::1777078093
-movement.tscn::PackedScene::8877180684694864760::1777048644::0::1::::<><><>0<>0<><>::
-player.tscn::PackedScene::8121272642833827693::1777078093::0::1::::<><><>0<>0<><>::uid://dyx4fxkrudm7e::::res://src/assets/character/player/Unarmed_Idle/Unarmed_Idle_full.png<>uid://dtmpbr83x3r7p::::res://src/assets/character/player/Sword_Attack/Sword_attack_full.png<>uid://dos02qlkkirm6::::res://src/assets/character/player/Unarmed_Walk/Unarmed_Walk_full.png<>uid://dyqf4spoqxdbs::::res://src/tscn/character/movement.tscn
+::res://src/tscn/::1777078370
+main.tscn::PackedScene::6998153694706693620::1777078370::0::1::::<><><>0<>0<><>::uid://dnyaf6a0y85rl::::res://src/tscn/character/player.tscn<>uid://dmuxpq1sl0f0p::::res://icon.svg
+::res://src/tscn/character/::1777147861
+movement.tscn::PackedScene::8877180684694864760::1777139477::0::1::::<><><>0<>0<><>::
+player.tscn::PackedScene::8121272642833827693::1777147861::0::1::::<><><>0<>0<><>::uid://dyx4fxkrudm7e::::res://src/assets/character/player/Unarmed_Idle/Unarmed_Idle_full.png<>uid://dtmpbr83x3r7p::::res://src/assets/character/player/Sword_Attack/Sword_attack_full.png<>uid://dos02qlkkirm6::::res://src/assets/character/player/Unarmed_Walk/Unarmed_Walk_full.png<>uid://dyqf4spoqxdbs::::res://src/tscn/character/movement.tscn
 ::res://src/tscn/levels/::1776919631
