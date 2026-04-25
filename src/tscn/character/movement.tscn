@@ -1,0 +1,79 @@
+[gd_scene format=3 uid="uid://dyqf4spoqxdbs"]
+
+[sub_resource type="GDScript" id="GDScript_ed7li"]
+resource_name = "mov"
+script/source = "extends Node2D
+
+enum STATE { 
+	#IDLE STATES
+	IDLE_UP, IDLE_DOWN, IDLE_LEFT, IDLE_RIGHT,
+	# WALK STATES
+	WALK_UP, WALK_DOWN, WALK_LEFT, WALK_RIGHT,
+	# ATACK
+	ATTACK 
+}
+
+@onready var character: CharacterBody2D = get_parent()
+@onready var sprite: AnimatedSprite2D = %sprite
+@onready var sprite_animation: AnimationPlayer = %Animation
+
+@export var speed := 80
+
+var _current_state: STATE = STATE.IDLE_DOWN
+var _last_direction := Vector2.DOWN
+
+func _physics_process(delta: float) -> void:
+	# Máquina de estados simple
+	match _current_state:
+		STATE.ATTACK:
+			_attack_state(delta)
+		STATE.WALK_UP, STATE.WALK_DOWN, STATE.WALK_LEFT, STATE.WALK_RIGHT:
+			_move_state(delta)
+		_: # Por defecto estados IDLE
+			_idle_state(delta)
+			
+	character.move_and_slide()
+
+func _process(_delta: float) -> void:
+	_state_animation(_current_state)
+
+func _idle_state(_delta: float) -> void:
+	character.velocity = character.velocity.move_toward(Vector2.ZERO, speed)
+	
+	var input_dir = Input.get_vector(\"left\", \"right\", \"up\", \"down\")
+	if input_dir != Vector2.ZERO:
+		_current_state = _get_walk_state(input_dir)
+
+func _move_state(_delta: float) -> void:
+	var direction = Input.get_vector(\"left\", \"right\", \"up\", \"down\")
+	
+	if direction != Vector2.ZERO:
+		character.velocity = direction * speed
+		_last_direction = direction
+		_current_state = _get_walk_state(direction)
+	else:
+		_current_state = _get_idle_state(_last_direction)
+
+func _attack_state(_delta: float) -> void:
+	pass
+
+# logica para el estado actual
+func _get_walk_state(dir: Vector2) -> STATE:
+	if abs(dir.x) > abs(dir.y):
+		return STATE.WALK_LEFT if dir.x < 0 else STATE.WALK_RIGHT
+	else:
+		return STATE.WALK_UP if dir.y < 0 else STATE.WALK_DOWN
+
+func _get_idle_state(dir: Vector2) -> STATE:
+	if abs(dir.x) > abs(dir.y):
+		return STATE.IDLE_LEFT if dir.x < 0 else STATE.IDLE_RIGHT
+	else:
+		return STATE.IDLE_UP if dir.y < 0 else STATE.IDLE_DOWN
+
+func _state_animation(state: STATE):
+	var anim_name = STATE.keys()[state].to_lower()
+	sprite.play(anim_name)
+"
+
+[node name="Movement" type="Node2D" unique_id=752034852]
+script = SubResource("GDScript_ed7li")

@@ -1,0 +1,140 @@
+63f7b34db8d8cdea90c76aacccf841ec
+::res://::1777078260
+icon.svg::CompressedTexture2D::8044239888931133101::1776919200::1776919205::1::::<><><>0<>0<>cfef9731edb2b4a45002a635792c89e5<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+::res://src/::1776919282
+::res://src/assets/::1776967802
+::res://src/assets/character/::1777004823
+::res://src/assets/character/player/::1777046656
+License.txt::TextFile::-1::1492230536::0::1::::<><><>0<>0<><>::
+::res://src/assets/character/player/Sword_Attack/::1777046659
+Sword_attack2_sword_back.png::CompressedTexture2D::5088412709718238731::1720610134::1777046659::1::::<><><>0<>0<>61e19289fce703dfbbbf9b55bb140b80<>res://.godot/imported/Sword_attack2_sword_back.png-4aedc2b43ed4d83f530e8fe62ca48745.ctex::
+Sword_attack3_body.png::CompressedTexture2D::519079187879019046::1720610142::1777046659::1::::<><><>0<>0<>c71787e6a68bdf0e70b7a6600340c6b1<>res://.godot/imported/Sword_attack3_body.png-faf63d02137c26a463be6200e6ddc46a.ctex::
+Sword_attack4_sword_front.png::CompressedTexture2D::6899292072726383514::1720610150::1777046659::1::::<><><>0<>0<>0607643950172f7ecc491ae731f437f8<>res://.godot/imported/Sword_attack4_sword_front.png-2b49a0f7f073667ec8f18a92bf6d348a.ctex::
+Sword_attack5_head.png::CompressedTexture2D::7147847210444594892::1720610157::1777046659::1::::<><><>0<>0<>7c77f433753d7bd8c3c8fbbfb05303c6<>res://.godot/imported/Sword_attack5_head.png-43e0ce9ff39ff8abed3e00a4402ef629.ctex::
+Sword_attack6_swing.png::CompressedTexture2D::4021661786619325807::1720610174::1777046659::1::::<><><>0<>0<>cb5d6954af95e3ce5089f422b944bf81<>res://.godot/imported/Sword_attack6_swing.png-2f3ee1d95587d5e5c5dec6e333233d40.ctex::
+Sword_attack_full.png::CompressedTexture2D::8518536099115584675::1720604153::1777046659::1::::<><><>0<>0<>ec2770fb24bb31ebfb4bb4af3573a092<>res://.godot/imported/Sword_attack_full.png-d6768dfd7d5102d003095480096c92cc.ctex::
+::res://src/assets/character/player/Sword_Death/::1777046659
+Sword_Death2_sword_back.png::CompressedTexture2D::407453687396827849::1720616851::1777046659::1::::<><><>0<>0<>834cd4f80db826e64293d652e2f215a5<>res://.godot/imported/Sword_Death2_sword_back.png-53fb40c2e374d037e96c691be0c96dcc.ctex::
+Sword_Death3_body.png::CompressedTexture2D::5673513326352925750::1720616863::1777046659::1::::<><><>0<>0<>53639f1c2593ecfdb7733d1b413f104f<>res://.godot/imported/Sword_Death3_body.png-90535840e2126792cf5ce991997d1a3c.ctex::
+Sword_Death4_sword_front.png::CompressedTexture2D::5913367289541665625::1720616873::1777046659::1::::<><><>0<>0<>7115d11d51690b689355aa5e281c5c95<>res://.godot/imported/Sword_Death4_sword_front.png-1e9b2efff14eed0b1c1e5a8305b0de01.ctex::
+Sword_Death5_head.png::CompressedTexture2D::3423639816057654409::1720616885::1777046659::1::::<><><>0<>0<>fda7e8e7897b237934d455b96ac71fdc<>res://.godot/imported/Sword_Death5_head.png-c3a4332138f65c04536c7e4f29937eaa.ctex::
+Sword_Death7_red.png::CompressedTexture2D::2050293556759412425::1720616898::1777046659::1::::<><><>0<>0<>ae80960ab3411797463345ecc111e452<>res://.godot/imported/Sword_Death7_red.png-151a7261840ac1dd54d9945b88261035.ctex::
+Sword_Death_full.png::CompressedTexture2D::2229958017515337472::1720604168::1777046659::1::::<><><>0<>0<>be1b9b8ffe018d04a68f299a502a2e68<>res://.godot/imported/Sword_Death_full.png-a33030b7fd973d010096354d8b3469d9.ctex::
+::res://src/assets/character/player/Sword_Hurt/::1777046659
+Sword_Hurt2_sword_back.png::CompressedTexture2D::3417074688592447001::1720617045::1777046659::1::::<><><>0<>0<>3a916a5b6be728217b30f0fc1a6dbe62<>res://.godot/imported/Sword_Hurt2_sword_back.png-1bc1c111cecfca811faab5f145aedde6.ctex::
+Sword_Hurt3_body.png::CompressedTexture2D::5607001695295818150::1720617054::1777046659::1::::<><><>0<>0<>3c17a5c29a52cfeb6ee8d740f103037b<>res://.godot/imported/Sword_Hurt3_body.png-a7b046e52119f45ce78a724a0b82f0ca.ctex::
+Sword_Hurt4_sword_front.png::CompressedTexture2D::4875880093590545647::1720617063::1777046659::1::::<><><>0<>0<>67e0e0d32324b1048e14fcc5af8bbcae<>res://.godot/imported/Sword_Hurt4_sword_front.png-4a0bc9c0f2ec5942a941da75d4cd061c.ctex::
+Sword_Hurt5_head.png::CompressedTexture2D::1104769972261704948::1720617073::1777046659::1::::<><><>0<>0<>bc0c19c6001ce79b1615f70c33f9a066<>res://.godot/imported/Sword_Hurt5_head.png-b3a23c7af0400857be4f0204f1ed7329.ctex::
+Sword_Hurt7_red.png::CompressedTexture2D::6308201220277122513::1720617084::1777046659::1::::<><><>0<>0<>e6ef36162c0756c498fa308da4221f83<>res://.godot/imported/Sword_Hurt7_red.png-1591f31353459d72f6351053b60df86f.ctex::
+Sword_Hurt_full.png::CompressedTexture2D::1308386177831197068::1720604180::1777046659::1::::<><><>0<>0<>5212078fc6b887b20a0e4bce3098b785<>res://.godot/imported/Sword_Hurt_full.png-25de1482ecd5070875f0d606c8f827ce.ctex::
+::res://src/assets/character/player/Sword_Idle/::1777046659
+Sword_Idle2_sword_back.png::CompressedTexture2D::819513435802982372::1720618503::1777046659::1::::<><><>0<>0<>5d8e128944f9da34e4b0f5f18425f9fc<>res://.godot/imported/Sword_Idle2_sword_back.png-9f6c8e8e29811c5aee3e27f39a87f0e3.ctex::
+Sword_Idle3_body.png::CompressedTexture2D::3480020696852526912::1720618514::1777046659::1::::<><><>0<>0<>a0acf01d9d938bbef5da07ad7e9f921f<>res://.godot/imported/Sword_Idle3_body.png-13d2f57bc020b83b0d9de6a36c555be3.ctex::
+Sword_Idle4_sword_front.png::CompressedTexture2D::1856991854309820278::1720618540::1777046659::1::::<><><>0<>0<>8618fc451342c709889e895283366667<>res://.godot/imported/Sword_Idle4_sword_front.png-95f1d0a9f8afb51a11fe7c4c0f10fa80.ctex::
+Sword_Idle5_head.png::CompressedTexture2D::6890864534533058037::1720618562::1777046659::1::::<><><>0<>0<>1d8faa57a1de27081ba76d4b4d5779ce<>res://.godot/imported/Sword_Idle5_head.png-c77826f46daaeb391a7bd6235cddf8a7.ctex::
+Sword_Idle_full.png::CompressedTexture2D::2352134130053229134::1720604203::1777046659::1::::<><><>0<>0<>5b4de6ccc810014a66ad72a5828a8059<>res://.godot/imported/Sword_Idle_full.png-a4db5a5a202e48ac652f8d6cf80cbbbb.ctex::
+::res://src/assets/character/player/Sword_Run/::1777046659
+Sword_Run2_sword_back.png::CompressedTexture2D::8678804694377472214::1720620222::1777046659::1::::<><><>0<>0<>a070d31a20ea53fbb6ceeb204c115c81<>res://.godot/imported/Sword_Run2_sword_back.png-891c676e12dbf2cf33850b564495d854.ctex::
+Sword_Run3_body.png::CompressedTexture2D::3320659271237324750::1720620255::1777046659::1::::<><><>0<>0<>d3a74d0207fda225e605513c4311c529<>res://.godot/imported/Sword_Run3_body.png-d0fda2d2e9ee0498120cc5b4350ef516.ctex::
+Sword_Run4_head.png::CompressedTexture2D::5488077734623733281::1720620266::1777046659::1::::<><><>0<>0<>be204377589e90eadada9e3b66b5d57f<>res://.godot/imported/Sword_Run4_head.png-dda12edfa0f0c373fd2dcfeedaf62f74.ctex::
+Sword_Run5_sword_front.png::CompressedTexture2D::8367906107123608537::1720620279::1777046659::1::::<><><>0<>0<>f50ef1b9ed12190c5a9db5348cbaf7fa<>res://.godot/imported/Sword_Run5_sword_front.png-402b8cccf219452ae5c45a01bb017a88.ctex::
+Sword_Run_full.png::CompressedTexture2D::2100480879794552698::1720604219::1777046659::1::::<><><>0<>0<>df5ea3ba08d1e0d9870a5dd5790ef475<>res://.godot/imported/Sword_Run_full.png-8453b92b3522dad234721cf4c997bf19.ctex::
+::res://src/assets/character/player/Sword_Run_attack/::1777046659
+Sword_Run_Attack2_sword_back.png::CompressedTexture2D::316562506470759562::1720620329::1777046659::1::::<><><>0<>0<>818f217571af035100931c190b34002f<>res://.godot/imported/Sword_Run_Attack2_sword_back.png-ca68cb81cb142bf64a2e479bff61b7f6.ctex::
+Sword_Run_Attack3_body.png::CompressedTexture2D::9007541209920940046::1720620339::1777046659::1::::<><><>0<>0<>5e407ebbaaeb0939cb826f1c7cb56326<>res://.godot/imported/Sword_Run_Attack3_body.png-23427f36caf258943e04fa55c7946caa.ctex::
+Sword_Run_Attack4_sword_front.png::CompressedTexture2D::6531185120862515652::1720620353::1777046658::1::::<><><>0<>0<>078aa9c373183828a11e41f41e1209b0<>res://.godot/imported/Sword_Run_Attack4_sword_front.png-b2ecf77c5191670d4f496ce4f58ff9f3.ctex::
+Sword_Run_Attack5_head.png::CompressedTexture2D::8034201945372639535::1720620363::1777046658::1::::<><><>0<>0<>b3fda60bcad4cd31a47e5e3bbdb79815<>res://.godot/imported/Sword_Run_Attack5_head.png-f33df1cbfbfcfec4d667ae27994db948.ctex::
+Sword_Run_Attack6_swing.png::CompressedTexture2D::4510748075815857068::1720620384::1777046658::1::::<><><>0<>0<>459d5623837096f7d5ebcde03d0a0177<>res://.godot/imported/Sword_Run_Attack6_swing.png-07a02232ac4aedccb45a7c237aa11b4d.ctex::
+Sword_Run_Attack_full.png::CompressedTexture2D::9087137194086599520::1720604235::1777046659::1::::<><><>0<>0<>90167e0c45234f7c5a4358ecd42ae193<>res://.godot/imported/Sword_Run_Attack_full.png-ef1c3918b783277873cf163eb4dd00c6.ctex::
+::res://src/assets/character/player/Sword_Walk/::1777046659
+Sword_Walk2_sword_back.png::CompressedTexture2D::4716956925967885982::1720620401::1777046659::1::::<><><>0<>0<>df8e3dc428abf82b6deba6b7678aa773<>res://.godot/imported/Sword_Walk2_sword_back.png-b8792eb414920cbb7ae9d86d708ef964.ctex::
+Sword_Walk3_body.png::CompressedTexture2D::3221854384257375733::1720620411::1777046659::1::::<><><>0<>0<>a97b1fb78ed3f218d28f4d08325bd740<>res://.godot/imported/Sword_Walk3_body.png-4dfce15e555cb3ff1a017b533334109d.ctex::
+Sword_Walk4_sword_front.png::CompressedTexture2D::5425708776356511881::1720620429::1777046659::1::::<><><>0<>0<>1dd60fb1fbe46c8a027a80c264e8c567<>res://.godot/imported/Sword_Walk4_sword_front.png-01da6ab501206e50b32a3d068f1b67b4.ctex::
+Sword_Walk5_head.png::CompressedTexture2D::2148699336176659997::1720620438::1777046659::1::::<><><>0<>0<>281cc99b5b890ca0ef60bd5b2aed8c9f<>res://.godot/imported/Sword_Walk5_head.png-49e734eb32b0f28fad81fd0f16eb379b.ctex::
+Sword_Walk_full.png::CompressedTexture2D::7429873041959421786::1720604250::1777046659::1::::<><><>0<>0<>ad7e612f9ffaa8d0b2fd4d01d444faf6<>res://.godot/imported/Sword_Walk_full.png-3817b6a73ee451ad023db9c18257f85f.ctex::
+::res://src/assets/character/player/Sword_Walk_attack/::1777046659
+Sword_Walk_Attack2_sword_back.png::CompressedTexture2D::2105010329729869692::1720620455::1777046659::1::::<><><>0<>0<>7d94f8c0e7492e73c32bb90fd7065df5<>res://.godot/imported/Sword_Walk_Attack2_sword_back.png-a3bfeeab5b73957de5b8cf04cdf37e5d.ctex::
+Sword_Walk_Attack3_body.png::CompressedTexture2D::7832962597754193537::1720620464::1777046659::1::::<><><>0<>0<>e590afeb0c561a75f62d8e4963ee3b22<>res://.godot/imported/Sword_Walk_Attack3_body.png-3c8bdc38b1c186faf2909fb6ae60ced3.ctex::
+Sword_Walk_Attack4_sword_front.png::CompressedTexture2D::3549132045740374282::1720620472::1777046659::1::::<><><>0<>0<>3d989de403865761045b119ac1314bbb<>res://.godot/imported/Sword_Walk_Attack4_sword_front.png-606e3948eb6a0e835a6f0b46cfe18724.ctex::
+Sword_Walk_Attack5_head.png::CompressedTexture2D::8393088607850947740::1720620486::1777046659::1::::<><><>0<>0<>1247aa47c7e0fe8d5299ea9207a90145<>res://.godot/imported/Sword_Walk_Attack5_head.png-012dde4729516aab78486ac00cdd0044.ctex::
+Sword_Walk_Attack6_swing.png::CompressedTexture2D::5904952191513488067::1720620498::1777046659::1::::<><><>0<>0<>0e657c4829bb33be75e3a9085bf804fc<>res://.godot/imported/Sword_Walk_Attack6_swing.png-d517029ec2ccf8a3160b17733d31898e.ctex::
+Sword_Walk_Attack_full.png::CompressedTexture2D::4480964754356867234::1720604263::1777046659::1::::<><><>0<>0<>5c29a43621bae12ea60d40aada8adce0<>res://.godot/imported/Sword_Walk_Attack_full.png-4a3a51f19b40a0560b5cced1f08b84e6.ctex::
+::res://src/assets/character/player/Unarmed_Death/::1777046659
+Unarmed_Death2_body.png::CompressedTexture2D::5837491965973517906::1720620515::1777046659::1::::<><><>0<>0<>6f8199ab1869ce6c6bdf6194c4ff9ecb<>res://.godot/imported/Unarmed_Death2_body.png-d493fec4133b4efec898e9dc82462c81.ctex::
+Unarmed_Death3_head.png::CompressedTexture2D::8381141778287772075::1720620522::1777046659::1::::<><><>0<>0<>0cb9d0a9d6a4d03a21fcc67481700b44<>res://.godot/imported/Unarmed_Death3_head.png-375e5b050e4ebb2f9864267dd7f5362c.ctex::
+Unarmed_Death4_red.png::CompressedTexture2D::4007482724497271182::1720620532::1777046659::1::::<><><>0<>0<>611cd18405c621e809a0d4877885a032<>res://.godot/imported/Unarmed_Death4_red.png-1f8912d38f512cdf56c36a03f5d7863e.ctex::
+Unarmed_Death_full.png::CompressedTexture2D::7705377716705825807::1720604277::1777046659::1::::<><><>0<>0<>4547fb2d2eca4d343c0098b1249f5dcd<>res://.godot/imported/Unarmed_Death_full.png-85c67f5f4f7d9c9415f7c688f6eeff66.ctex::
+::res://src/assets/character/player/Unarmed_Hurt/::1777046659
+Unarmed_Hurt2_body.png::CompressedTexture2D::1513562096614856511::1720620543::1777046659::1::::<><><>0<>0<>ff94cbc8af0d330a5edcbe71d05fa480<>res://.godot/imported/Unarmed_Hurt2_body.png-df5f3396c328fbe6e1e29c5de62329a9.ctex::
+Unarmed_Hurt3_head.png::CompressedTexture2D::746880837026145180::1720620553::1777046659::1::::<><><>0<>0<>55254e73fdb85ef4115233f116884453<>res://.godot/imported/Unarmed_Hurt3_head.png-6b23c025967f1457219caaed2fc61582.ctex::
+Unarmed_Hurt4_red.png::CompressedTexture2D::1850334489029088431::1720620563::1777046659::1::::<><><>0<>0<>2638478135fd5f02d168052d73e957d5<>res://.godot/imported/Unarmed_Hurt4_red.png-209e2a3eb10ffab128289e583abf9d43.ctex::
+Unarmed_Hurt_full.png::CompressedTexture2D::2843458542697446337::1720604293::1777046659::1::::<><><>0<>0<>b7a2044127bd17ca987453b18861fe49<>res://.godot/imported/Unarmed_Hurt_full.png-def8364de80f036280f5c553e6b63524.ctex::
+::res://src/assets/character/player/Unarmed_Idle/::1777046659
+Unarmed_Idle2_body.png::CompressedTexture2D::8521299161544337762::1720620586::1777046659::1::::<><><>0<>0<>7c0cb0dc608439b588303f1b5d87d03f<>res://.godot/imported/Unarmed_Idle2_body.png-7b32cc5d785f450e24a1be367fcba054.ctex::
+Unarmed_Idle3_head.png::CompressedTexture2D::3023331947541892799::1720620600::1777046659::1::::<><><>0<>0<>aebd0af3434e6a1c50f47fbc5a3e9bdf<>res://.godot/imported/Unarmed_Idle3_head.png-874111b6e55261620dca0f66d722900f.ctex::
+Unarmed_Idle_full.png::CompressedTexture2D::8893045932779566444::1720604308::1777046659::1::::<><><>0<>0<>04658ca17c362becb65a679e9ed05c18<>res://.godot/imported/Unarmed_Idle_full.png-c1c0fb3be8f85640a9d4a91ce23fb5a9.ctex::
+::res://src/assets/character/player/Unarmed_Run/::1777046659
+Unarmed_Run2_body.png::CompressedTexture2D::1030859256608329701::1720620615::1777046659::1::::<><><>0<>0<>256cdb4df8659c678f2dce2fb0d6a214<>res://.godot/imported/Unarmed_Run2_body.png-bebb6b2714fcdbca12530ebce5e7ac25.ctex::
+Unarmed_Run3_head.png::CompressedTexture2D::5306194890633704926::1720620623::1777046659::1::::<><><>0<>0<>a914c9741081346f77cc431f85a51374<>res://.godot/imported/Unarmed_Run3_head.png-acaca82a45eeae6391a9fe006c5d0295.ctex::
+Unarmed_Run_full.png::CompressedTexture2D::4403067793143452488::1720604114::1777046659::1::::<><><>0<>0<>de84bcf01a83cad25762bc977f216c67<>res://.godot/imported/Unarmed_Run_full.png-471f4e573a84a9080433b92b24797edb.ctex::
+::res://src/assets/character/player/Unarmed_Walk/::1777046659
+Unarmed_Walk2_body.png::CompressedTexture2D::9195234331669790147::1720620639::1777046658::1::::<><><>0<>0<>d57ad5569670fd86e363c205dccb7bf3<>res://.godot/imported/Unarmed_Walk2_body.png-d27b27fdf218b713c94422e1c96b9b5d.ctex::
+Unarmed_Walk3_head.png::CompressedTexture2D::1776281098530617155::1720620647::1777046658::1::::<><><>0<>0<>7511997ae2573edc8546fcec64432bbc<>res://.godot/imported/Unarmed_Walk3_head.png-f22337c169a28115000770841832c0dc.ctex::
+Unarmed_Walk_full.png::CompressedTexture2D::8180631660673929307::1720604131::1777046659::1::::<><><>0<>0<>23460dbda19b5c72567f3b275309d403<>res://.godot/imported/Unarmed_Walk_full.png-34f097301c481ac00258c1394bddb0c1.ctex::
+::res://src/assets/Cute_Fantasy_Free/::1717435050
+read_me.txt::TextFile::-1::1705118921::0::1::::<><><>0<>0<><>::
+::res://src/assets/Cute_Fantasy_Free/Animals/::1717430390
+::res://src/assets/Cute_Fantasy_Free/Animals/Chicken/::1776958126
+Chicken.png::CompressedTexture2D::6867433353800525810::1717430530::1776958126::1::::<><><>0<>0<>7c0f1e1af174b83e2d6a0262aebb52f0<>res://.godot/imported/Chicken.png-d6d8104310ad1fc752ad1e94ac765a37.ctex::
+::res://src/assets/Cute_Fantasy_Free/Animals/Cow/::1776958126
+Cow.png::CompressedTexture2D::8991695554786481932::1717430484::1776958126::1::::<><><>0<>0<>f36f86d03054824ea458f30f7baa8b83<>res://.godot/imported/Cow.png-5c23e94c8c0f6ec89fff19a459fac215.ctex::
+::res://src/assets/Cute_Fantasy_Free/Animals/Pig/::1776958126
+Pig.png::CompressedTexture2D::84895320846879868::1717430448::1776958126::1::::<><><>0<>0<>e840469933b635efb770e0b96dd61696<>res://.godot/imported/Pig.png-1bb6e7b72c0b15d105f6a5fbcad7a7c8.ctex::
+::res://src/assets/Cute_Fantasy_Free/Animals/Sheep/::1776958126
+Sheep.png::CompressedTexture2D::2333510954354873621::1717430407::1776958126::1::::<><><>0<>0<>6551fc12f1357d8afd785669c0eef570<>res://.godot/imported/Sheep.png-e4c72806c15d18a90bc006012d037828.ctex::
+::res://src/assets/Cute_Fantasy_Free/Enemies/::1776958126
+Skeleton.png::CompressedTexture2D::3967934559087079663::1707719892::1776958126::1::::<><><>0<>0<>0b45d8a7bbe998a4933a382f20066391<>res://.godot/imported/Skeleton.png-1e2ada3b43522c27f6c25a4a9a8374d0.ctex::
+Slime_Green.png::CompressedTexture2D::5690124382925007684::1731437648::1776958126::1::::<><><>0<>0<>86c34696134817887bb0271d9e27ba7e<>res://.godot/imported/Slime_Green.png-e988229e2e713d8339f677f772ffc600.ctex::
+::res://src/assets/Cute_Fantasy_Free/Outdoor decoration/::1776958126
+Bridge_Wood.png::CompressedTexture2D::6435094872370371952::1706979706::1776958126::1::::<><><>0<>0<>ec0ec7f8f720a0cffec845d1eb226caa<>res://.godot/imported/Bridge_Wood.png-8da25687af768ceacc507c56168cf550.ctex::
+Chest.png::CompressedTexture2D::5331226956421702683::1705124459::1776958126::1::::<><><>0<>0<>fd1ece32079977718f9ec1ff27f3868d<>res://.godot/imported/Chest.png-1aa70148595876a1fe039e621d158377.ctex::
+Fences.png::CompressedTexture2D::1476828427389612018::1726958810::1776958126::1::::<><><>0<>0<>6e6c7a8061e8050b50abb4008df11b93<>res://.godot/imported/Fences.png-53dfd028b90f664b4a2783a8665ee8df.ctex::
+House_1_Wood_Base_Blue.png::CompressedTexture2D::6353085093562777450::1761049296::1776958126::1::::<><><>0<>0<>894075cdf2303074b503c2710528dd7d<>res://.godot/imported/House_1_Wood_Base_Blue.png-9ce9ff6ade148fc814cf74702881ffc7.ctex::
+Oak_Tree.png::CompressedTexture2D::3239796789441571538::1705118544::1776958126::1::::<><><>0<>0<>dc3da91cbb068b7e3147412a0b3b9cc0<>res://.godot/imported/Oak_Tree.png-3b244c8a634c759c696a0e90c885a9e2.ctex::
+Oak_Tree_Small.png::CompressedTexture2D::2162910810620390498::1722812301::1776958126::1::::<><><>0<>0<>c57a169b6ae5eff0048f1f62c20ecec8<>res://.godot/imported/Oak_Tree_Small.png-d49ccc314e7d11646df36cd84f689469.ctex::
+Outdoor_Decor_Free.png::CompressedTexture2D::5158161672847868041::1726958799::1776958126::1::::<><><>0<>0<>cec356d4d166cf4ffd1b9c1d125916fb<>res://.godot/imported/Outdoor_Decor_Free.png-5edf780a591d4f39777c58260f053036.ctex::
+::res://src/assets/Cute_Fantasy_Free/Player/::1776958126
+Player.png::CompressedTexture2D::5822850027889921841::1705111070::1776958126::1::::<><><>0<>0<>8260d9928f0641b22b4c0780530a3ece<>res://.godot/imported/Player.png-820aa575a8589309202ae6df0ee08091.ctex::
+Player_Actions.png::CompressedTexture2D::4089783403461618331::1705795397::1776958126::1::::<><><>0<>0<>792e43a391d11f0377cb7eb5f2d8f5e9<>res://.godot/imported/Player_Actions.png-3d4903bbc0242559b092be30bee24af6.ctex::
+::res://src/assets/Cute_Fantasy_Free/Tiles/::1776958126
+Beach_Tile.png::CompressedTexture2D::904396198543734871::1726958710::1776958126::1::::<><><>0<>0<>62ffe785555d27de9a1e7cf30faa9404<>res://.godot/imported/Beach_Tile.png-3ff1fa68272b149664c3428ee3d8ffb9.ctex::
+Cliff_Tile.png::CompressedTexture2D::5421387967925959559::1705118330::1776958126::1::::<><><>0<>0<>ab68741f2ebf2d5946591ddbf792db7c<>res://.godot/imported/Cliff_Tile.png-51dacc30fae10ada685ffbbf93f3d426.ctex::
+FarmLand_Tile.png::CompressedTexture2D::7524104184533074306::1705795453::1776958126::1::::<><><>0<>0<>c1a6247880d2f13003d4f693ec435963<>res://.godot/imported/FarmLand_Tile.png-fecddeffb071ede6fd9ab5eb6c6c5fe2.ctex::
+Grass_Middle.png::CompressedTexture2D::7486136591218828771::1705118429::1776958125::1::::<><><>0<>0<>ac93824cf1865c7de703cecf9d988617<>res://.godot/imported/Grass_Middle.png-dc70d76add448d55d50ae3315e315c56.ctex::
+Path_Middle.png::CompressedTexture2D::4645991193947971587::1705118441::1776958125::1::::<><><>0<>0<>58d8fe0f7d21db4382ffa3236db43b8e<>res://.godot/imported/Path_Middle.png-6086737968dd6adbe00e2f27d8a8d5e0.ctex::
+Path_Tile.png::CompressedTexture2D::7465753948485852506::1705118299::1776958125::1::::<><><>0<>0<>c92ab60d078ee56708167adf1832b3d5<>res://.godot/imported/Path_Tile.png-70f6cf168deb827910fbee87ab517fe5.ctex::
+Water_Middle.png::CompressedTexture2D::3063317379568824806::1705118397::1776958125::1::::<><><>0<>0<>83a93a3d0d5412d01c13b7ecd57473b2<>res://.godot/imported/Water_Middle.png-8943addc6e640a7036b4076667a46e07.ctex::
+Water_Tile.png::CompressedTexture2D::5877747060609146115::1705118369::1776958125::1::::<><><>0<>0<>bccee78e531f090a4eaa3926b13c44fb<>res://.godot/imported/Water_Tile.png-ce5073ec1a175df217eb1fd89b98225a.ctex::
+::res://src/assets/Pixel Art Top Down - Basic v1.2.3/::1776958126
+Changelog.txt::TextFile::-1::1768760470::0::1::::<><><>0<>0<><>::
+Scene Overview.png::CompressedTexture2D::592228192966202672::1748012728::1776958126::1::::<><><>0<>0<>66f77c5718810c701d1a882914fa31ad<>res://.godot/imported/Scene Overview.png-c272275aab70ffc4b49145227377633c.ctex::
+::res://src/assets/Pixel Art Top Down - Basic v1.2.3/Texture/::1776958126
+TX Plant.png::CompressedTexture2D::8135254366968680297::1729179504::1776958126::1::::<><><>0<>0<>3f0127ab30fb0a451720b91c01639072<>res://.godot/imported/TX Plant.png-fa9043c5b2516c6636be0a24fff137d9.ctex::
+TX Player.png::CompressedTexture2D::5676852561930863053::1729179504::1776958125::1::::<><><>0<>0<>309e9cfe34cf9b6ea43b0ae74ae92622<>res://.godot/imported/TX Player.png-26b93bd52a05decc6cc0a00457bf5b1b.ctex::
+TX Props.png::CompressedTexture2D::5418388565932665469::1729179504::1776958125::1::::<><><>0<>0<>ded4f6da85049fc26d2bd31ec514b2fc<>res://.godot/imported/TX Props.png-07e9eb6edb69ea6a6c4bee62c39b5405.ctex::
+TX Shadow Plant.png::CompressedTexture2D::8236812384588122923::1729179504::1776958125::1::::<><><>0<>0<>6b8ef79092beb42070adb9639fa0af9c<>res://.godot/imported/TX Shadow Plant.png-728e638cdad37454035be752f23c42b6.ctex::
+TX Shadow.png::CompressedTexture2D::9062362584321841424::1729179504::1776958125::1::::<><><>0<>0<>46b402dff64bc07257eed51b1c32101f<>res://.godot/imported/TX Shadow.png-990a2d8aec1411b8395104ca02e55859.ctex::
+TX Struct.png::CompressedTexture2D::2767255688904814254::1756737118::1776958126::1::::<><><>0<>0<>39d1a4cd6a48c40ba90281f708f42002<>res://.godot/imported/TX Struct.png-f5e2969d8b596570a1b840a2a098712a.ctex::
+TX Tileset Grass.png::CompressedTexture2D::5082522484529622691::1729179504::1776958126::1::::<><><>0<>0<>cf0fdb54d106cf929dfef7b083f094cf<>res://.godot/imported/TX Tileset Grass.png-9fa24d7064bf05ab0cbd639761fa8a1d.ctex::
+TX Tileset Stone Ground.png::CompressedTexture2D::6019634599044157340::1729179504::1776958126::1::::<><><>0<>0<>8f8051a692a1e1d4ec39c497151b839d<>res://.godot/imported/TX Tileset Stone Ground.png-6f24a6e38382b8f427bd1ef3e07e4403.ctex::
+TX Tileset Wall.png::CompressedTexture2D::5126348055425411598::1747861652::1776958126::1::::<><><>0<>0<>3f0570e132ffa2660855e05e451773c7<>res://.godot/imported/TX Tileset Wall.png-d42093350d320ba3c53b31f8adb77905.ctex::
+::res://src/assets/Pixel Art Top Down - Basic v1.2.3/Texture/Extra/::1776958125
+TX Plant with Shadow.png::CompressedTexture2D::87868454092614101::1747927422::1776958125::1::::<><><>0<>0<>e46617aee59d2bdad8e73758d472c8ff<>res://.godot/imported/TX Plant with Shadow.png-511b8399786275d9b2c5eff8adb13d20.ctex::
+TX Props with Shadow.png::CompressedTexture2D::6819450720648263427::1747927446::1776958125::1::::<><><>0<>0<>26f41f992f621e9e1c60a170462fdd7a<>res://.godot/imported/TX Props with Shadow.png-e8a0e305fc715bed656e5d7adf2cfe0f.ctex::
+::res://src/scripts/::1776919275
+::res://src/tscn/::1777043849
+main.tscn::PackedScene::6998153694706693620::1777043849::0::1::::<><><>0<>0<><>::uid://dnyaf6a0y85rl::::res://src/tscn/character/player.tscn<>uid://dmuxpq1sl0f0p::::res://icon.svg
+::res://src/tscn/character/::1777078093
+movement.tscn::PackedScene::8877180684694864760::1777048644::0::1::::<><><>0<>0<><>::
+player.tscn::PackedScene::8121272642833827693::1777078093::0::1::::<><><>0<>0<><>::uid://dyx4fxkrudm7e::::res://src/assets/character/player/Unarmed_Idle/Unarmed_Idle_full.png<>uid://dtmpbr83x3r7p::::res://src/assets/character/player/Sword_Attack/Sword_attack_full.png<>uid://dos02qlkkirm6::::res://src/assets/character/player/Unarmed_Walk/Unarmed_Walk_full.png<>uid://dyqf4spoqxdbs::::res://src/tscn/character/movement.tscn
+::res://src/tscn/levels/::1776919631
