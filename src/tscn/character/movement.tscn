@@ -9,12 +9,12 @@ enum STATE {
 	IDLE_UP, IDLE_DOWN, IDLE_LEFT, IDLE_RIGHT,
 	# WALK STATES
 	WALK_UP, WALK_DOWN, WALK_LEFT, WALK_RIGHT,
-	# ATACK
-	ATTACK 
+	# SWORD ATACK STATES
+	SWORD_ATTACK_UP, SWORD_ATTACK_LEFT, SWORD_ATTACK_RIGHT,
+	SWORD_ATTACK_DOWN 
 }
 
 @onready var character: CharacterBody2D = get_parent()
-@onready var sprite: AnimatedSprite2D = %sprite
 @onready var sprite_animation: AnimationPlayer = %Animation
 
 @export var speed := 80
@@ -23,19 +23,21 @@ var _current_state: STATE = STATE.IDLE_DOWN
 var _last_direction := Vector2.DOWN
 
 func _physics_process(delta: float) -> void:
-	# Máquina de estados simple
-	match _current_state:
-		STATE.ATTACK:
-			_attack_state(delta)
-		STATE.WALK_UP, STATE.WALK_DOWN, STATE.WALK_LEFT, STATE.WALK_RIGHT:
-			_move_state(delta)
-		_: # Por defecto estados IDLE
-			_idle_state(delta)
+	_switch_state(delta)
 			
 	character.move_and_slide()
 
 func _process(_delta: float) -> void:
 	_state_animation(_current_state)
+
+
+func _switch_state(delta):
+	if _current_state >= STATE.IDLE_UP and _current_state <= STATE.IDLE_RIGHT:
+		_idle_state(delta)
+	elif _current_state >= STATE.WALK_UP and _current_state <= STATE.WALK_RIGHT:
+		_walk_state(delta)
+	elif _current_state >= STATE.SWORD_ATTACK_UP and _current_state <= STATE.SWORD_ATTACK_DOWN:
+		_sword_attack_state(delta)
 
 func _idle_state(_delta: float) -> void:
 	character.velocity = character.velocity.move_toward(Vector2.ZERO, speed)
@@ -43,8 +45,11 @@ func _idle_state(_delta: float) -> void:
 	var input_dir = Input.get_vector(\"left\", \"right\", \"up\", \"down\")
 	if input_dir != Vector2.ZERO:
 		_current_state = _get_walk_state(input_dir)
-
-func _move_state(_delta: float) -> void:
+		
+	if Input.is_action_just_pressed(\"sword_attack\"):
+		_current_state = _get_sword_attack_state(input_dir if input_dir != Vector2.ZERO else _last_direction)
+		
+func _walk_state(_delta: float) -> void:
 	var direction = Input.get_vector(\"left\", \"right\", \"up\", \"down\")
 	
 	if direction != Vector2.ZERO:
@@ -53,11 +58,25 @@ func _move_state(_delta: float) -> void:
 		_current_state = _get_walk_state(direction)
 	else:
 		_current_state = _get_idle_state(_last_direction)
+	
+	if Input.is_action_just_pressed(\"sword_attack\"):
+		var dir = direction if direction != Vector2.ZERO else _last_direction
+		_current_state = _get_sword_attack_state(dir)
 
-func _attack_state(_delta: float) -> void:
-	pass
+func _sword_attack_state(_delta: float) -> void:
+	character.velocity = Vector2.ZERO
+	
+	# Si la animación terminó, volvemos a IDLE usando la última dirección
+	if not sprite_animation.is_playing():
+		_current_state = _get_idle_state(_last_direction)
 
-# logica para el estado actual
+
+func _get_sword_attack_state(dir: Vector2) -> STATE:
+	if abs(dir.x) > abs(dir.y):
+		return STATE.SWORD_ATTACK_LEFT if dir.x < 0 else STATE.SWORD_ATTACK_RIGHT
+	else:
+		return STATE.SWORD_ATTACK_UP if dir.y < 0 else STATE.SWORD_ATTACK_DOWN
+
 func _get_walk_state(dir: Vector2) -> STATE:
 	if abs(dir.x) > abs(dir.y):
 		return STATE.WALK_LEFT if dir.x < 0 else STATE.WALK_RIGHT
@@ -72,7 +91,11 @@ func _get_idle_state(dir: Vector2) -> STATE:
 
 func _state_animation(state: STATE):
 	var anim_name = STATE.keys()[state].to_lower()
-	sprite.play(anim_name)
+	
+	if sprite_animation.has_animation(anim_name):
+		# Evitamos que la animación se reinicie en cada frame
+		if sprite_animation.current_animation != anim_name:
+			sprite_animation.play(anim_name)
 "
 
 [node name="Movement" type="Node2D" unique_id=752034852]

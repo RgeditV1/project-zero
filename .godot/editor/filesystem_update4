@@ -1,1 +1,5 @@
 res://src/tscn/main.tscn
+res://src/tscn/character/movement.tscn
+res://addons/savekit/save_manager.gd
+res://addons/savekit/README.md
+res://src/tscn/character/player.tscn
