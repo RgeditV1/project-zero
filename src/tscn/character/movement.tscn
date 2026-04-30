@@ -31,6 +31,7 @@ func _process(_delta: float) -> void:
 	_state_animation(_current_state)
 
 
+#region MOVIMIENTO
 func _switch_state(delta):
 	if _current_state >= STATE.IDLE_UP and _current_state <= STATE.IDLE_RIGHT:
 		_idle_state(delta)
@@ -71,6 +72,7 @@ func _sword_attack_state(_delta: float) -> void:
 		_current_state = _get_idle_state(_last_direction)
 
 
+#region DIRECCION DE ANIMACION
 func _get_sword_attack_state(dir: Vector2) -> STATE:
 	if abs(dir.x) > abs(dir.y):
 		return STATE.SWORD_ATTACK_LEFT if dir.x < 0 else STATE.SWORD_ATTACK_RIGHT
@@ -88,14 +90,16 @@ func _get_idle_state(dir: Vector2) -> STATE:
 		return STATE.IDLE_LEFT if dir.x < 0 else STATE.IDLE_RIGHT
 	else:
 		return STATE.IDLE_UP if dir.y < 0 else STATE.IDLE_DOWN
+#endregion
 
 func _state_animation(state: STATE):
 	var anim_name = STATE.keys()[state].to_lower()
-	
-	if sprite_animation.has_animation(anim_name):
+	var player_animation: String = \"player_animation/%s\" % anim_name
+	if sprite_animation.has_animation(player_animation):
 		# Evitamos que la animación se reinicie en cada frame
-		if sprite_animation.current_animation != anim_name:
-			sprite_animation.play(anim_name)
+		if sprite_animation.current_animation !=  player_animation:
+			sprite_animation.play(player_animation)
+#endregion
 "
 
 [node name="Movement" type="Node2D" unique_id=752034852]

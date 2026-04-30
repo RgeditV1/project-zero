@@ -1,3 +1,11 @@
+CanvasModulate
+TextureRect
+Parallax2D
+OccluderInstance3D
+TileMapLayer
+Node2D
+Node
+TileMap
 CollisionShape2D
 Area2D
 AnimationPlayer
@@ -5,4 +13,3 @@ AnimatedSprite2D
 Sprite2D
 StaticBody2D
 Camera2D
-CharacterBody2D

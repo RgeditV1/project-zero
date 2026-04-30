@@ -1,1 +1,2 @@
-res://src/tscn/character/player.tscn
+res://src/tscn/world/levels/bosque.tscn
+res://src/tscn/character/movement.tscn

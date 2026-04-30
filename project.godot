@@ -18,6 +18,14 @@ config/features=PackedStringArray("4.6", "GL Compatibility")
 run/max_fps=30
 config/icon="res://icon.svg"
 
+[audio]
+
+buses/default_bus_layout=""
+
+[autoload]
+
+SaveManager="*uid://ck4ih2layufdo"
+
 [display]
 
 window/size/viewport_width=1280
@@ -26,6 +34,15 @@ window/size/resizable=false
 window/size/borderless=true
 window/stretch/mode="canvas_items"
 display_server/driver.linuxbsd="wayland"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/savekit/plugin.cfg")
+
+[global_group]
+
+player=""
+level="Todos los niveles"
 
 [input]
 
@@ -65,6 +82,8 @@ interact={
 2d_physics/layer_1="player"
 2d_physics/layer_2="p_attack"
 2d_physics/layer_3="damage"
+2d_physics/layer_4="arbol"
+2d_physics/layer_5="puente"
 
 [physics]
 
