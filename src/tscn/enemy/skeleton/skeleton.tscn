@@ -1,0 +1,33 @@
+[gd_scene format=3 uid="uid://7iisuxxbqd8y"]
+
+[ext_resource type="SpriteFrames" uid="uid://jrmy3tx6ducx" path="res://src/resources/animated_sprites/skeleton_warrior.tres" id="1_hadym"]
+[ext_resource type="PackedScene" uid="uid://dlmeot8oe8cmd" path="res://src/tscn/enemy/skeleton/base_skeleton.tscn" id="2_hadym"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_hadym"]
+size = Vector2(127, 50)
+
+[sub_resource type="Animation" id="Animation_hadym"]
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_7oi6d"]
+_data = {
+&"idle": SubResource("Animation_hadym")
+}
+
+[node name="Skeleton" type="CharacterBody2D" unique_id=859595805]
+
+[node name="Sprite" type="AnimatedSprite2D" parent="." unique_id=1902903944]
+unique_name_in_owner = true
+sprite_frames = ExtResource("1_hadym")
+animation = &"idle"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1279765790]
+position = Vector2(1.5, 35)
+shape = SubResource("RectangleShape2D_hadym")
+
+[node name="Animacion" type="AnimationPlayer" parent="." unique_id=1015666641]
+unique_name_in_owner = true
+callback_mode_process = 0
+libraries/warrior = SubResource("AnimationLibrary_7oi6d")
+
+[node name="base_skeleton" parent="." unique_id=1282266197 instance=ExtResource("2_hadym")]
+unique_name_in_owner = true

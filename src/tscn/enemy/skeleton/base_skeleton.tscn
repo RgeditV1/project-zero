@@ -1,0 +1,71 @@
+[gd_scene format=3 uid="uid://dlmeot8oe8cmd"]
+
+[sub_resource type="GDScript" id="GDScript_vsqps"]
+script/source = "extends CharacterBody2D
+
+@onready var enemy: CharacterBody2D = get_parent()
+@onready var sprite: AnimatedSprite2D = %Sprite
+@onready var animation_player: AnimationPlayer = %Animacion
+
+
+#region EXPORT ENUMS
+enum SkeletonType {
+	WARRIOR,
+	ARCHER,
+	MAGE
+}
+
+@export var skeleton: SkeletonType = SkeletonType.WARRIOR
+#endregion
+
+var data = {
+	SkeletonType.WARRIOR: {
+		\"speed\": 60,
+		\"hp\": 100,
+		\"frames\": preload(\"uid://jrmy3tx6ducx\")
+	},
+	SkeletonType.ARCHER: {
+		\"speed\": 40,
+		\"hp\": 70,
+		\"frames\": null
+	},
+	SkeletonType.MAGE: {
+		\"speed\": 30,
+		\"hp\": 60,
+		\"frames\": null
+	}
+}
+
+var sprite_frames: SpriteFrames
+var hp
+var speed
+
+
+func _ready():
+	var d = data[skeleton]
+
+	speed = d[\"speed\"]
+	hp = d[\"hp\"]
+	sprite_frames = d[\"frames\"]
+
+	if sprite_frames: # if not null ;)
+		sprite.sprite_frames = sprite_frames
+		sprite.play(\"idle\")
+
+
+func take_damage(amount):
+	hp -= amount # recibido
+	if hp <= 0:
+		die()
+
+
+func die():
+	queue_free()
+
+
+func _physics_process(delta):
+	move_and_slide()
+"
+
+[node name="BaseEnemy" type="Node2D" unique_id=1282266197]
+script = SubResource("GDScript_vsqps")

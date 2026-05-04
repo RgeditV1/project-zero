@@ -37,7 +37,7 @@ display_server/driver.linuxbsd="wayland"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/savekit/plugin.cfg")
+enabled=PackedStringArray("res://addons/savekit/plugin.cfg", "res://addons/script-ide/plugin.cfg")
 
 [global_group]
 
