@@ -1185,18 +1185,23 @@ size = Vector2(22, 8)
 
 [node name="Player" type="CharacterBody2D" unique_id=656180675 groups=["player"]]
 z_index = 1
+y_sort_enabled = true
 texture_filter = 1
-collision_mask = 0
+collision_mask = 32
+platform_floor_layers = 4294967056
+platform_wall_layers = 32
 metadata/player_name = "alex"
 
 [node name="sprite" type="AnimatedSprite2D" parent="." unique_id=1698871896]
 unique_name_in_owner = true
+y_sort_enabled = true
 texture_filter = 1
 sprite_frames = SubResource("SpriteFrames_8t2va")
 animation = &"idle_down"
 speed_scale = 0.5
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=84370922]
+y_sort_enabled = true
 position = Vector2(-0.25, 5.75)
 shape = SubResource("RectangleShape2D_xu5jq")
 
@@ -1209,6 +1214,7 @@ autoplay = &"player_animation/idle_down"
 [node name="Camera2D" type="Camera2D" parent="." unique_id=263308781]
 unique_name_in_owner = true
 zoom = Vector2(4, 4)
+limit_smoothed = true
 position_smoothing_enabled = true
 position_smoothing_speed = 7.0
 
